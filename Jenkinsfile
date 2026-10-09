@@ -11,7 +11,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                git 'https://github.com/Swaroop1910/finall.git'
+                url: 'https://github.com/Swaroop1910/finall.git'
             }
         }
 
